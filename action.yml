@@ -15,6 +15,10 @@ inputs:
     description: 'Force SSL encryption'
     required: false
     default: 'false'
+  sslProtectData:
+    description: 'Encrypts the data transfer in addition to the connection'
+    required: false
+    default: 'false'
   localDir:
     description: 'Local directory'
     required: false
